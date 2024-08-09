@@ -1,0 +1,43 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_mcu_manager (0.0.1):
+    - Flutter
+    - iOSMcuManagerLibrary
+  - integration_test (0.0.1):
+    - Flutter
+  - iOSMcuManagerLibrary (1.7):
+    - SwiftCBOR (= 0.4.4)
+    - ZIPFoundation (= 0.9.11)
+  - SwiftCBOR (0.4.4)
+  - ZIPFoundation (0.9.11)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_mcu_manager (from `.symlinks/plugins/flutter_mcu_manager/ios`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+
+SPEC REPOS:
+  trunk:
+    - iOSMcuManagerLibrary
+    - SwiftCBOR
+    - ZIPFoundation
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_mcu_manager:
+    :path: ".symlinks/plugins/flutter_mcu_manager/ios"
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_mcu_manager: ab6760ccfb41271850af85acbd7590089c774114
+  integration_test: 252f60fa39af5e17c3aa9899d35d908a0721b573
+  iOSMcuManagerLibrary: 72cf222a99ff7f5c9acef6959f3357c08914b732
+  SwiftCBOR: ce5354ec8b660da2d6fc754462881119dbe1f963
+  ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.15.2
