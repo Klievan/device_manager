@@ -15,7 +15,8 @@ A new Flutter plugin project.
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.dependency 'iOSMcuManagerLibrary'
+  s.dependency 'iOSMcuManagerLibrary', '~> 1.7'
+
   s.platform = :ios, '12.0'
 
   # Flutter.framework does not contain a i386 slice.

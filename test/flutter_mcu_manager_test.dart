@@ -10,6 +10,11 @@ class MockFlutterMcuManagerPlatform
 
   @override
   Future<String?> getPlatformVersion() => Future.value('42');
+  
+  @override
+  Future<String?> startDFU({required String address, required String filePath, bool fileInAsset = false, FirmwareUpgradeMode mode = FirmwareUpgradeMode.testAndConfirm, int? estimatedSwapTime, bool? eraseAppSettings, int? pipelineDepth, int? reassemblyBufferSize, UpgradeCallback? upgradeDidStart, UpgradeCallback? upgradeDidComplete, UpgradeStateChangeCallback? upgradeStateDidChange, UpgradeStateCallback? upgradeDidCancel, UpgradeFailCallback? upgradeDidFail, UpgradeProgressCallback? uploadProgressDidChange}) {
+    throw UnimplementedError();
+  }
 }
 
 void main() {
